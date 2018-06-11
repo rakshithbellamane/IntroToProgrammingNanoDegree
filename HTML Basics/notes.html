@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>My HTML basics notes</title>
+  </head>
+
+  <body>
+      <h1>My notes is composed of following topics:</h1>
+        <ol>
+          <li>How does the web work?</li>
+          <li>What is HTML?</li>
+          <li>What are the key components of HTML document?</li>
+          <li>What are elements and tags?</li>
+          <li>What are the tags that I have learnt so far?</li>
+        </ol>
+
+
+      <h2>How does the web work?</h2>
+        <p>
+          In simplest terms, web is made of clients, internet and servers.<br>
+          Clients are the computers that users use to access internet and get information or do something.<br>
+          Servers are computers that complete the requests that clients make. Usually, servers get requests, perform some computation and sends back responses.<br>
+          Clients and Servers are connected by what we call Internet through which the requests and responses are routed.<br>
+          <img src='web.png' alt='image not available'>
+        </p>
+
+
+      <h2>What is HTML?</h2>
+        <p>
+          HTML or Hyper Text Markup Language is a document format to exchange information on internet.<br>
+          Websites show information to users in browser as HTML document.<br>
+          HTML is exchanged between client and servers using a protocol called HTTP or Hyper Text Transport Protocol.<br>
+        </p>
+
+
+      <h2>What are the key components of HTML document?</h2>
+        <p>
+          HTML is primarily made up two sections:<br>
+          <ul>
+            <li>&ltHead&gt: Identifies the Header of the HTML document. We usually provide metadata information here.</li>
+            <li>&ltBody&gt: Body contains the contents of the HTML document.</li>
+          </ul>
+          A simple HTML document structure is as follows:
+            <br>
+            <br>
+            <div>
+              &nbsp&lt!DOCTYPE&gt<br>
+              &nbsp&nbsp&lthtml&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lthead&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt/head&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltbody&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lt/body&gt<br>
+              &nbsp&nbsp&lt/html&gt<br>
+            </div>
+        </p>
+
+
+      <h2>What are elements and tags?</h2>
+      <p>
+        HTML document is made up of elements. These elements are identified through tags.<br>
+        Some of the components of tags are (not all are mandatory. It depends on element type):<br>
+        <ul>
+          <li>What element it is</li>
+          <li>Name of the element</li>
+          <li>Type of the element</li>
+          <li>Attribute of element</li>
+          <li>Value of the element</li>
+        </ul>
+        Example:&lta href='https://www.nytimes.com'&gtThe NewYork Times&lt/a&gt<br>
+      </p>
+      <p>
+        Elements can be inline elements and block elements.<br>
+        <p>
+          Inline elements basically doesn't cause a new line. Ex: &ltimg&gt.<br>
+          Block elements cause a new line and form an invisible block around the element. Ex: &ltdiv&gt.<br>
+        </p>
+        Elements can be styled using CSS or Cascading Style Sheets.<br>
+      </p>
+
+
+      <h2>What are the tags that I have learnt so far?</h2>
+      <p>
+        <ul>
+          <li><b>Inline:</b></li>
+            <ul>
+              <li>&ltbr&gt:Break or new line.</li>
+              <li>&ltspan&gt:Identifies a span in the document for which we may want to apply certain characteristics.</li>
+              <li>&ltimg&gt:Inserts an image</li>
+            </ul>
+          <li><b>Block:</b></li>
+            <ul>
+              <li>&ltdiv&gt:Encapsulates other elements.</li>
+              <li>&ltp&gt: Starts a paragraph.</li>
+              <li>&ltul&gt: Unordered list.</li>
+              <li>&ltol&gt: Ordered list.</li>
+              <li>&ltli&gt: List element.</li>
+            </ul>
+        </ul>
+      </p>
+  </body>
+</html>
