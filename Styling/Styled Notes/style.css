@@ -1,0 +1,42 @@
+
+* {
+  font-family: Verdana;
+  margin: 5px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.notesHeader {
+  background-color: Ivory;
+}
+
+.tableOfContents {
+  font-family: Verdana;
+  font-size: 1em;
+  background-color: AliceBlue;
+  display: table;
+}
+
+/*.topics{
+  font-size: 2em;
+}*/
+
+.topicsHeader{
+  background-color: LightGrey;
+}
+
+.topicDetails{
+  background-color: Lavender;
+}
+
+.footer{
+  background-color: Ivory;
+}
+
+.aboutMe{
+  display: flex;
+}

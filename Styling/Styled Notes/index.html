@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+      My Styled Notes
+    </title>
+  </head>
+
+  <body>
+    <div class="notesHeader">
+      <h1>My Notes:</h1>
+      <p>
+        This is my notes of some on the topics that I have learnt so far. It primarily consists of HTML. I'm also using this notes as a playground to test CSS skills.
+      </p>
+      <div class="tableOfContents">
+          <ol>
+            <li><a href="#topic1">How does the web work?</a></li>
+            <li><a href="#topic2">What is HTML?</a></li>
+            <li><a href="#topic3">What are the key components of HTML document?</a></li>
+            <li><a href="#topic4">What are elements and tags?</a></li>
+            <li><a href="#topic5">What are the tags that I have learnt so far?</a></li>
+          </ol>
+      </div>
+    </div>
+
+    <div class="topics">
+      <div id="topic1" class="topicsHeader">
+        <h2>How does the web work?<h2>
+      </div>
+      <div class="topicDetails">
+        <p>
+          In simplest terms, web is made of clients, internet and servers.<br>
+          Clients are the computers that users use to access internet and get information or do something.<br>
+          Servers are computers that complete the requests that clients make. Usually, servers get requests, perform some computation and sends back responses.<br>
+          Clients and Servers are connected by what we call Internet through which the requests and responses are routed.<br>
+        </p>
+        <img src='images/web.png' alt='image explaining how internet works'>
+      </div>
+
+      <div id="topic2" class="topicsHeader">
+        <h2>What is HTML?</h2>
+      </div>
+      <div class="topicDetails">
+        <p>
+          HTML or Hyper Text Markup Language is a document format to exchange information on internet.<br>
+          Websites show information to users in browser as HTML document.<br>
+          HTML is exchanged between client and servers using a protocol called HTTP or Hyper Text Transport Protocol.<br>
+        </p>
+      </div>
+
+      <div id="topic3" class="topicsHeader">
+        <h2>What are the key components of HTML document?</h2>
+      </div>
+      <div class="topicDetails">
+        <p>
+          HTML is primarily made up two sections:<br>
+        </p>
+          <ul>
+            <li>&lt;Head&gt;: Identifies the Header of the HTML document. We usually provide metadata information here.</li>
+            <li>&lt;Body&gt;: Body contains the contents of the HTML document.</li>
+          </ul>
+          <p>
+          A simple HTML document structure is as follows:
+            <br>
+            <br>
+              &nbsp;&lt;!DOCTYPE&gt;<br>
+              &nbsp;&nbsp;&lt;html&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+              &nbsp;&nbsp;&lt;/html&gt;<br>
+          </p>
+      </div>
+
+      <div id="topic4" class="topicsHeader">
+        <h2>What are elements and tags?</h2>
+      </div>
+      <div class="topicDetails">
+        <p>
+          HTML document is made up of elements. These elements are identified through tags.<br>
+          Some of the components of tags are (not all are mandatory. It depends on element type):<br>
+        </p>
+        <ul>
+          <li>What element it is</li>
+          <li>Name of the element</li>
+          <li>Type of the element</li>
+          <li>Attribute of element</li>
+          <li>Value of the element</li>
+        </ul>
+        <p>
+          Example:&lt;a href='https://www.nytimes.com'&gt;The NewYork Times&lt;/a&gt;<br>
+          <br>
+          Elements can be inline elements and block elements.<br>
+          <br>
+            Inline elements basically doesn't cause a new line. Ex: &lt;img&gt;.<br>
+            Block elements cause a new line and form an invisible block around the element. Ex: &lt;div&gt;.<br>
+          <br>
+          Elements can be styled using CSS or Cascading Style Sheets.<br>
+        </p>
+      </div>
+
+      <div id="topic5" class="topicsHeader">
+        <h2>What are the tags that I have learnt so far?</h2>
+      </div>
+      <div class="topicDetails">
+        <ul>
+          <li><b>Inline:</b>
+            <ul>
+              <li>&lt;br&gt;:Break or new line.</li>
+              <li>&lt;span&gt;:Identifies a span in the document for which we may want to apply certain characteristics.</li>
+              <li>&lt;img&gt;:Inserts an image</li>
+            </ul>
+          </li>
+          <li><b>Block:</b>
+            <ul>
+              <li>&lt;div&gt;:Encapsulates other elements.</li>
+              <li>&lt;p&gt;: Starts a paragraph.</li>
+              <li>&lt;ul&gt;: Unordered list.</li>
+              <li>&lt;ol&gt;: Ordered list.</li>
+              <li>&lt;li&gt;: List element.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div>
+        <h2>About Me</h2>
+      </div>
+      <div class="aboutMe">
+        <div style="width:50%">
+          <img src='images/me.jpg' alt="My Image">
+        </div>
+        <p>
+          My name is Rakshith Bellamane.<br>
+          I'm passionate about technology.<br>
+          I strive to be a good human. Respect nature.<br>
+          I believe that technology should always be meant to do good to society.<br>
+          <br>
+          I like to listen to podcasts. Here are some podcasts that I listen to:<br>
+          <a href="https://www.npr.org/programs/ted-radio-hour/?showDate=2018-06-22">TED Radio Hour</a>
+          <a href="https://www.npr.org/podcasts/510313/how-i-built-this">How I Built This</a>
+          <a href="https://99percentinvisible.org/">99 Designs</a>
+          <a href="https://hbr.org/2018/01/podcast-ideacast">HBR Ideacast</a>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
